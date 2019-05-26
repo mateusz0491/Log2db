@@ -1,1 +1,1 @@
-include ':sample', ':log2db'
+include ':log2db', ':badgenerator', ':app'

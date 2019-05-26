@@ -1,8 +1,8 @@
-package com.badsoft.android.log2db;
+package app.badsoft.android.log2db.sample;
 
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 /**
  * Example local unit test, which will execute on the development machine (host).

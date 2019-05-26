@@ -1,4 +1,4 @@
-package com.badsoft.android.log2db;
+package app.badsoft.android.log2db.sample;
 
 import android.content.Context;
 
@@ -8,7 +8,7 @@ import androidx.test.runner.AndroidJUnit4;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 /**
  * Instrumented test, which will execute on an Android device.
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.badsoft.android.log2db", appContext.getPackageName());
+        assertEquals("app.badsoft.android.log2db.sample", appContext.getPackageName());
     }
 }
